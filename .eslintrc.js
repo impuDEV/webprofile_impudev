@@ -37,6 +37,7 @@ module.exports = {
 		'no-param-reassign': 'off',
 		'no-shadow': 'off',
 		'no-unused-vars': 'off',
+		'no-nested-ternary': 'off',
 		'no-console': 'warn',
 		'no-underscore-dangle': 'off',
 		'react/require-default-props': 'off',

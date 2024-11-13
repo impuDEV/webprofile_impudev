@@ -3,18 +3,40 @@
 @import "themes/light";
 @import "themes/dark";
 
-.app {
+.app-wrapper {
+	background: var(--surface-container-high-color);
+}
+
+.app,
+.app_modal{
 	font: var(--font-m);
-	color: var(--primary-color);
-	background: var(--bg-color);
+	color: var(--on-surface-color);
+	margin: 0 auto;
+}
+
+.app {
+	background: var(--surface-color);
 	min-height: 100vh;
+	max-width: var(--app-width);
+	min-width: var(--app-min-width);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .content-page {
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+
+	&>footer {
+		width: 100%;
+		display: flex;
+		height: var(--footer-height);
+		padding-left: calc(var(--sidepanel-width) + 20px);
+		padding-right: 20px;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 
-.page-wrapper {
-	flex-grow: 1;
-	padding: 20px;
-}
+

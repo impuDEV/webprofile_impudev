@@ -1,7 +1,7 @@
 {
-	"name": "react_app_template",
+	"name": "webprofile_impudev",
 	"version": "0.1.0",
-	"description": "react preconfigured template for a new project developing fast starting",
+	"description": "My profile site",
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack serve --env port=3000",
@@ -37,7 +37,7 @@
 		"circular-dependency-plugin": "^5.2.2",
 		"copy-webpack-plugin": "^10.2.4",
 		"css-loader": "^6.6.0",
-		"eslint": "^8.10.0",
+		"eslint": "8.22.0",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-i18next": "^6.1.0",
@@ -67,6 +67,7 @@
 		"webpack-dev-server": "^4.7.4"
 	},
 	"dependencies": {
+		"@headlessui/react": "^2.1.10",
 		"i18next": "^23.15.1",
 		"i18next-browser-languagedetector": "^8.0.0",
 		"i18next-http-backend": "^2.6.1",

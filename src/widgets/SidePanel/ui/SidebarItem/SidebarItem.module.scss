@@ -1,0 +1,13 @@
+.menuButton {
+	border: none;
+	outline: none;
+	background: none;
+	color: var(--primary-color);
+}
+
+.active {
+	box-shadow: 0 0 5px var(--surface-dim-color);
+	background: var(--surface-color);
+	color: var(--primary-color);
+	cursor: auto;
+}

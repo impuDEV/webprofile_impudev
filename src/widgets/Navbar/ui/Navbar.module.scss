@@ -1,18 +1,12 @@
 .Navbar {
 	width: 100%;
 	height: var(--navbar-height);
-	background: var(--inverted-bg-color);
+	background: var(--inverse-surface-color);
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
 	display: flex;
 	align-items: center;
-	padding: 20px;
-}
-
-.links {
-	margin-left: auto;
-}
-
-.mainLink {
-	margin-right: 15px;
 }
 
 .switchers {
@@ -20,8 +14,4 @@
 	left: 20px;
 	display: flex;
 	justify-content: center;
-}
-
-.lang {
-	margin-left: 20px;
 }

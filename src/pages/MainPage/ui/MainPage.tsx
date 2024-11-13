@@ -1,15 +1,21 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
-// eslint-disable-next-line impudev-fsd/layer-imports
-import { BugButton } from '@/app/providers/ErrorBoundary'
+import { Page } from '@/widgets/Page'
+import { Container } from '@/shared/ui/Container'
 
 const MainPage = () => {
 	const { t } = useTranslation('main_page')
+
 	return (
-		<div>
-			{t('Main Page')}
-			<BugButton />
-		</div>
+		<Page>
+			<div className="primary_container">
+				<Container>
+					<h1>
+						{t('Добро пожаловать!')} <br />{' '}
+						{t('Вы заглянули в персональный уголок WEB разработчика impuDEV.')}
+					</h1>
+				</Container>
+			</div>
+		</Page>
 	)
 }
 

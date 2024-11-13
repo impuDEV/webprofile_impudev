@@ -1,17 +1,27 @@
 import { RouteProps } from 'react-router-dom'
 import { MainPage } from '@/pages/MainPage'
-import { AboutPage } from '@/pages/AboutPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
-import { AppRoutes, getRouteAbout, getRouteMain } from '@/shared/const/router'
+import {
+	AppRoutes,
+	getRouteBlog,
+	getRouteEmployer,
+	getRouteMain,
+} from '@/shared/const/router'
+import { BlogPage } from '@/pages/BlogPage'
+import { EmployerPage } from '@/pages/EmployerPage'
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {
 	[AppRoutes.MAIN]: {
 		path: getRouteMain(),
 		element: <MainPage />,
 	},
-	[AppRoutes.ABOUT]: {
-		path: getRouteAbout(),
-		element: <AboutPage />,
+	[AppRoutes.BLOG]: {
+		path: getRouteBlog(),
+		element: <BlogPage />,
+	},
+	[AppRoutes.EMPLOYER]: {
+		path: getRouteEmployer(),
+		element: <EmployerPage />,
 	},
 
 	// last

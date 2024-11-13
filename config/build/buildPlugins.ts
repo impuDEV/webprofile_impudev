@@ -23,7 +23,7 @@ export function buildPlugins({
 		new webpack.DefinePlugin({
 			__IS_DEV__: JSON.stringify(isDev),
 			__PACKAGE_NAME__: JSON.stringify(packageInstance.name),
-			__PACKAGE_VER__: JSON.stringify(packageInstance.version),
+			__PACKAGE_VER__: JSON.stringify(`v:${packageInstance.version}`),
 		}),
 		new CircularDependencyPlugin({
 			exclude: /node_modules/,

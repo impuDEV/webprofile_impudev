@@ -1,0 +1,6 @@
+.close {
+	position: absolute;
+	top: 0;
+	left: calc(var(--sidepanel-width) - 50px);
+	z-index: var(--modal-z-index);
+}

@@ -1,0 +1,35 @@
+.Sidebar {
+	width: var(--sidepanel-width);
+	background: var(--surface-container-low-color);
+	height: 100vh;
+	position: fixed;
+	align-items: center;
+	box-shadow: 0 2px 4px var(--surface-dim-color);
+
+}
+
+.navigation {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 40%;
+
+	Button:hover{
+		font-weight: bold;
+		text-shadow: 1px 1px var(--surface-dim-color);
+	}
+}
+
+.settings {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	color: var(--primary-color);
+	font-size: large;
+}
+
+

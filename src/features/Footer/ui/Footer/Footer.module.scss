@@ -1,0 +1,16 @@
+.Footer {
+	width: 100%;
+	background: var(--inverse-surface-color);
+	color: var(--primary-color);
+	font-family: "Roboto", serif;
+
+}
+
+.italic {
+	font-style: italic;
+}
+
+.Footer.mobile {
+	padding: 20px;
+	margin-top: var(--navbar-height);
+}
