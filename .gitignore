@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+storybook-static/
+
+dist/
+.loki/report.json
+.loki/report.html
+
+*.log
+package-lock.json
+*storybook.log

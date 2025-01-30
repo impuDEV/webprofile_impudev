@@ -1,0 +1,28 @@
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import { ThemeProvider } from '@/app/providers/ThemeProvider'
+import { StoreProvider } from '@/app/providers/StoreProvider'
+import App from '@/app/App'
+import '@/app/styles/index.scss'
+import './shared/config/i18n/i18n'
+import { ErrorBoundary } from '@/app/providers/ErrorBoundary'
+
+const appContainer = document.getElementById('root')
+
+if (!appContainer) {
+	throw new Error('root container not found. Can`t inject React application')
+}
+
+const root = createRoot(appContainer)
+
+root.render(
+	<BrowserRouter>
+		<StoreProvider>
+			<ErrorBoundary>
+				<ThemeProvider>
+					<App />
+				</ThemeProvider>
+			</ErrorBoundary>
+		</StoreProvider>
+	</BrowserRouter>,
+)
