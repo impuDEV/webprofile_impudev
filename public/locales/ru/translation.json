@@ -1,10 +1,13 @@
 {
 	"About": "О сайте",
+	"Alexander Papernov": "Александр Папернов",
 	"Generate error": "Сгенерировать ошибку",
 	"Home": "Главная",
-	"Login": "Войти",
 	"PageNotFound": "Страница не найдена",
 	"Reload Page": "Обновить страницу",
 	"UnknownError": "Произошла непредвиденная ошибка",
+	"blog": "Блог",
+	"disclaimer": "",
+	"employer": "Работодателю",
 	"language": "Ru"
 }

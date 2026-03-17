@@ -1,18 +1,12 @@
 .Navbar {
 	width: 100%;
 	height: var(--navbar-height);
-	background: var(--inverted-bg-color);
+	background: var(--inverse-surface-color);
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
 	display: flex;
 	align-items: center;
-	padding: 20px;
-}
-
-.links {
-	margin-left: auto;
-}
-
-.mainLink {
-	margin-right: 15px;
 }
 
 .switchers {
@@ -22,6 +16,8 @@
 	justify-content: center;
 }
 
-.lang {
-	margin-left: 20px;
+.menuIcon {
+	stroke: var(--primary-color);
+	stroke-width: 2px;
+	stroke-linecap: round;
 }

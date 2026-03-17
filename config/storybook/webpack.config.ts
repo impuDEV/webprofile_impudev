@@ -8,6 +8,7 @@ export default ({ config }: { config: webpack.Configuration }) => {
 		build: '',
 		entry: '',
 		html: '',
+		favicon: path.resolve(__dirname, 'public', 'favicon.ico'),
 		src: path.resolve(__dirname, '..', '..', 'src'),
 		locales: '',
 		buildLocales: '',

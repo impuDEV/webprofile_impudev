@@ -1,0 +1,25 @@
+.Footer {
+	width: 100%;
+	background: var(--inverse-surface-color);
+	color: var(--primary-color);
+	font-family: Roboto, serif;
+}
+
+.contacts {
+	align-items: center;
+	align-items: center;
+	line-height: 1.2em;
+	& > a {
+		margin: 5px;
+	}
+}
+
+.italic {
+	font-style: italic;
+	font-size: var(--font-size-s);
+}
+
+.Footer.mobile {
+	padding: 20px;
+	margin-top: var(--navbar-height);
+}

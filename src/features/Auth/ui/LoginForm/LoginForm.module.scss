@@ -1,6 +1,9 @@
 .LoginForm {
-	color: var(--primary-color);
+	color: var(--inverse-primary-color);
 	width: 200px;
 	height: 120px;
-	background: var(--bg-color);
+	background: var(--on-surface-color);
+	position: absolute;
+	top: calc(100vh / 3);
+	left: calc(100vw / 2 - 100px);
 }

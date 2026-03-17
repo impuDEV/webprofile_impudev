@@ -1,10 +1,13 @@
 {
 	"About": "About",
+	"Alexander Papernov": "Alexander Papernov",
 	"Generate error": "Generate error",
 	"Home": "Home",
-	"Login": "Login",
 	"PageNotFound": "Page not found",
 	"Reload Page": "Reload Page",
-	"UnknownError": "Unknown Error occured",
+	"UnknownError": "Unknown Error occurred",
+	"blog": "Blog",
+	"disclaimer": "",
+	"employer": "To Employer",
 	"language": "En"
 }
