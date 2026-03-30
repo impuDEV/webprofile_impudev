@@ -1,3 +1,3 @@
-import { BlogPageAsync } from './ui/BlockPage.async'
+import { BlogPageAsync } from './ui/BlogPage.async'
 
 export { BlogPageAsync as BlogPage }
